@@ -1,0 +1,27 @@
+{
+  "name": "ws7",
+  "version": "1.0.0",
+  "description": "guestbook site with mlab",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekhotom/new_repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekhotom/new_repo/issues"
+  },
+  "homepage": "https://github.com/ekhotom/new_repo#readme"
+}
