@@ -2,4 +2,4 @@
 
 node app.js to start
 
-same as guestbook repo but fetches information from mlab instead of local machine
+same as guestbook repo but fetches information from mlab instead of local json files
