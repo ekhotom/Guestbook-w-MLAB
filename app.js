@@ -40,8 +40,7 @@ app.post("/newmessage", function(req, res) {
     const MongoClient = require("mongodb").MongoClient;
 
     // Connection URL
-    //const url = process.env.MONGOLAB_URI;
-    const url = MONGOLAB_URI="mongodb://user:perkelE123@ds026018.mlab.com:26018/kouludb";
+    const url = process.env.MONGOLAB_URI;
 
     // Database Name
     const dbName = "kouludb";
@@ -108,8 +107,7 @@ app.post("/delete", function(req, res) {
     const MongoClient = require("mongodb").MongoClient;
 
     // Connection URL
-    //const url = process.env.MONGOLAB_URI;
-    const url = MONGOLAB_URI="mongodb://user:perkelE123@ds026018.mlab.com:26018/kouludb";
+    const url = process.env.MONGOLAB_URI;
 
     // Database Name
     const dbName = "kouludb";
@@ -197,8 +195,7 @@ app.post("/edit", function(req, res) {
   const MongoClient = require("mongodb").MongoClient;
 
   // Connection URL
-  //const url = process.env.MONGOLAB_URI;
-  const url = MONGOLAB_URI="mongodb://user:perkelE123@ds026018.mlab.com:26018/kouludb";
+  const url = process.env.MONGOLAB_URI;
 
   // Database Name
   const dbName = "kouludb";
@@ -264,8 +261,7 @@ function getMovies(callback, title) {
   const MongoClient = require("mongodb").MongoClient;
 
   // Connection URL
-  //const url = process.env.MONGOLAB_URI;
-  const url = MONGOLAB_URI="mongodb://user:perkelE123@ds026018.mlab.com:26018/kouludb";
+  const url = process.env.MONGOLAB_URI;
   // Database Name
   const dbName = "kouludb";
 
@@ -307,8 +303,7 @@ function getResult(callback) {
   const MongoClient = require("mongodb").MongoClient;
 
   // Connection URL
-  //const url = process.env.MONGOLAB_URI;
-  const url = MONGOLAB_URI="mongodb://user:perkelE123@ds026018.mlab.com:26018/kouludb";
+  const url = process.env.MONGOLAB_URI;
 
   // Database Name
   const dbName = "kouludb";
@@ -349,8 +344,7 @@ function getFlags(callback) {
   const MongoClient = require("mongodb").MongoClient;
 
   // Connection URL
-  //const url = process.env.MONGOLAB_URI;
-  const url = MONGOLAB_URI="mongodb://user:perkelE123@ds026018.mlab.com:26018/kouludb";
+  const url = process.env.MONGOLAB_URI;
 
   // Database Name
   const dbName = "kouludb";
